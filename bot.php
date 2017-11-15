@@ -226,7 +226,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[1]",
                         						'text' => "$address[1]",
                         						'actions' => [
@@ -343,7 +343,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[2]",
                         						'text' => "$address[2]",
                         						'actions' => [
@@ -460,7 +460,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[1]",
                         						'text' => "$address[1]",
                         						'actions' => [
@@ -577,7 +577,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[1]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[2]",
                         						'text' => "$address[2]",
                         						'actions' => [
@@ -681,7 +681,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
-									'title' => "$name[0]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -694,8 +694,8 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
-                        						'title' => "$name[1]",
+                    						],[
+                        						'title' => 'name',
                         						'text' => 'address',
                         						'actions' => [
                             							[
@@ -709,7 +709,7 @@ if (!is_null($events['events'])) {
 										]
 									]
 								],[
-									'title' => "$name[2]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -723,7 +723,7 @@ if (!is_null($events['events'])) {
 										]
 									]
                     						],[
-									'title' => "$name[3]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -737,7 +737,7 @@ if (!is_null($events['events'])) {
 										]
 									]
                     						],[
-									'title' => "$name[4]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -798,7 +798,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
-									'title' => "$name[0]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -811,8 +811,8 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
-                        						'title' => "$name[1]",
+                    						,[
+                        						'title' => 'name',
                         						'text' => 'address',
                         						'actions' => [
                             							[
@@ -826,7 +826,7 @@ if (!is_null($events['events'])) {
 										]
 									]
 								],[
-									'title' => "$name[2]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -840,7 +840,7 @@ if (!is_null($events['events'])) {
 										]
 									]
                     						],[
-									'title' => "$name[3]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
@@ -854,7 +854,7 @@ if (!is_null($events['events'])) {
 										]
 									]
                     						],[
-									'title' => "$name[4]",
+									'title' => 'name',
 									'text' => 'address',
 									'actions' => [
 										[
