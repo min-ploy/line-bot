@@ -120,7 +120,7 @@ if (!is_null($events['events'])) {
 					];
 					$me = [
 						'type' => 'text',
-						'text' => 'ถ้าไม่มีลองหาที่ซื้อร่ม โดยพิมพ์คำว่า ห้างสรรพสินค้า ดูสิ'
+						'text' => 'ถ้าไม่มีลองหาที่ซื้อร่ม โดยพิมพ์คำว่า ร้านค้า ดูสิ'
 					];
 					// Make a POST Request to Messaging API to reply to sender
 					$url = 'https://api.line.me/v2/bot/message/reply';
@@ -156,18 +156,18 @@ if (!is_null($events['events'])) {
 					];
 					break;
 				
-				case 'ทำอะไรดี' :
+				case 'เงินหมด' :
 					$messages = [
 						'type' => 'text',
-						'text' => 'ไปไหว้พระกันมั้ย'
+						'text' => 'ต้องการกดเงินมั้ย'
 					];
 					$mess = [
 						'type' => 'text',
-						'text' => 'ลองค้นหาวัดใกล้ๆ'
+						'text' => 'ลองค้นหาตู้ ATM ใกล้ๆ'
 					];
 					$me = [
 						'type' => 'text',
-						'text' => 'โดยพิมพ์คำว่า วัด ดูสิ'
+						'text' => 'โดยพิมพ์คำว่า ATM ดูสิ'
 					];
 					// Make a POST Request to Messaging API to reply to sender
 					$url = 'https://api.line.me/v2/bot/message/reply';
