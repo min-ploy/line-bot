@@ -226,7 +226,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[1]",
                         						'text' => "$address[1]",
                         						'actions' => [
@@ -343,7 +343,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[2]",
                         						'text' => "$address[2]",
                         						'actions' => [
@@ -460,7 +460,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[0]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[1]",
                         						'text' => "$address[1]",
                         						'actions' => [
@@ -577,7 +577,7 @@ if (!is_null($events['events'])) {
                                 							'uri' => "$urll[1]"
 										]
 									]
-                    										],[
+                    						],[
                         						'title' => "$name[2]",
                         						'text' => "$address[2]",
                         						'actions' => [
