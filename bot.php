@@ -453,7 +453,7 @@ if (!is_null($events['events'])) {
 										[
 											'type' => 'postback',
 											'label' => "$number[0]",
-											'data' => 'เบอร์โทร'
+											'data' => 'phone'
 										],[
 											'type' => 'uri',
 											'label' => 'Google Map',
