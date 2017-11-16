@@ -213,7 +213,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
-									'thumbnailImageUrl' => "https://cdn.shopify.com/s/files/1/0379/7669/products/sampleset2_1024x1024.JPG?v=1458740363"
+									'ImageUrl' => "https://cdn.shopify.com/s/files/1/0379/7669/products/sampleset2_1024x1024.JPG?v=1458740363"
 									'title' => "$name[0]",
 									'text' => "$address[0]",
 									'actions' => [
