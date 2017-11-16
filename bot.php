@@ -213,6 +213,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
+									'thumbnailImageUrl' => "https://image.dek-d.com/25/3095528/110740553"
 									'title' => "$name[0]",
 									'text' => "$address[0]",
 									'actions' => [
