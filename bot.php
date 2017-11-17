@@ -11,7 +11,16 @@ error_log($jsonString);
 // Parse JSON
 $events = json_decode($content, true);
 
-
+use LINE\LINEBot;
+use LINE\LINEBot\Constant\ActionType;
+use LINE\LINEBot\Constant\MessageType;
+use LINE\LINEBot\Constant\TemplateType;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselTemplateBuilder;
+use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselColumnTemplateBuilder;
+use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
+use LINE\Tests\LINEBot\Util\DummyHttpClient;
 
 // Validate parsed JSON data
 if (!is_null($events['events'])) {
@@ -216,6 +225,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
+									'imageUrl' => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuVzgTACW08Jd4GFGaVgn5_ZL7H1ZWQqSOBaVCYlEBmgvdIsRbaA";
 									'title' => "$name[0]",
 									'text' => "$address[0]",
 									'actions' => [
