@@ -222,7 +222,7 @@ if (!is_null($events['events'])) {
 										[
 											'type' => 'postback',
 											'label' => "$number[0]",
-											'data' => 'action = call'
+											'data' => "action = call"
 										],[
 											'type' => 'uri',
 											'label' => 'Google Map',
