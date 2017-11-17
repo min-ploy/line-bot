@@ -208,8 +208,6 @@ if (!is_null($events['events'])) {
 						array_push($address, $object['result']['vicinity']);
 						array_push($urll, $object['result']['url']);
 						//$addname .= "->>".$name."\n".$number."\n".$address."\n\n";
-						Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "0805860915"));
-						startActivity(intent);
 					}           
 					$messages = [
 						'type' => 'template',
