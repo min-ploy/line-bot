@@ -208,6 +208,8 @@ if (!is_null($events['events'])) {
 						array_push($address, $object['result']['vicinity']);
 						array_push($urll, $object['result']['url']);
 						//$addname .= "->>".$name."\n".$number."\n".$address."\n\n";
+						Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "0805860915"));
+						startActivity(intent);
 					}           
 					$messages = [
 						'type' => 'template',
@@ -222,7 +224,7 @@ if (!is_null($events['events'])) {
 										[
 											'type' => 'postback',
 											'label' => "$number[0]",
-											'data' => "$Intent.ACTION_CALL"
+											'data' => 'intent'
 										],[
 											'type' => 'uri',
 											'label' => 'Google Map',
@@ -352,7 +354,7 @@ if (!is_null($events['events'])) {
                         						'actions' => [
                             							[
 											'type' => 'postback',
-											'label' => 'ไม่มีเบอร์โทร',
+											'label' => 'ไม่มีเบอร์ติดต่อ',
 											'data' => 'เบอร์โทร'
 										],[
                                 							'type' => 'uri',
