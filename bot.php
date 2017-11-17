@@ -216,14 +216,13 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
-									'thumbnailImageUrl' => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4c0C88GdNvz0GjS5VhUajxdsI1c3ZBd5VBxygh0p7A0_180JV",
 									'title' => "$name[0]",
 									'text' => "$address[0]",
 									'actions' => [
 										[
 											'type' => 'postback',
 											'label' => "$number[0]",
-											'data' => 'เบอร์โทร'
+											'data' => 'action = call'
 										],[
 											'type' => 'uri',
 											'label' => 'Google Map',
