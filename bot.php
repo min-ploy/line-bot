@@ -225,7 +225,7 @@ if (!is_null($events['events'])) {
 							'type' => 'carousel',
 							'columns' => [
 								[
-									'imageUrl' => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuVzgTACW08Jd4GFGaVgn5_ZL7H1ZWQqSOBaVCYlEBmgvdIsRbaA";
+									'imageUrl' => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuVzgTACW08Jd4GFGaVgn5_ZL7H1ZWQqSOBaVCYlEBmgvdIsRbaA",
 									'title' => "$name[0]",
 									'text' => "$address[0]",
 									'actions' => [
